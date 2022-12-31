@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationWithEfcore", "StoreApplicationWithEfcore\StoreApplicationWithEfcore.csproj", "{FD1ADB5C-A481-46D3-A69C-EEDA2B5FF3BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD1ADB5C-A481-46D3-A69C-EEDA2B5FF3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1ADB5C-A481-46D3-A69C-EEDA2B5FF3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1ADB5C-A481-46D3-A69C-EEDA2B5FF3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1ADB5C-A481-46D3-A69C-EEDA2B5FF3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A65C99-DEE1-4FF1-89B0-963AB31C255C}
+	EndGlobalSection
+EndGlobal

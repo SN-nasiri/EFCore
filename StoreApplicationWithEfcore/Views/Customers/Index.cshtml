@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using StoreApplicationWithEfcore.Models.Services.GetCustomerList;
+@model List<CustomerListDto>;
+
+
+<table class="table table-active table-bordered">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>username</th>
+            <th>name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Id</th>
+                <th>@item.UserName</th>
+                <th>@item.Name</th>
+            </tr>
+        }
+    </tbody>
+</table>
+
